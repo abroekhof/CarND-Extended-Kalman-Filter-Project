@@ -24,7 +24,16 @@ public:
   * A helper method to calculate Jacobians.
   */
   Eigen::MatrixXd CalculateJacobian(const Eigen::VectorXd& x_state);
+  
+  /**
+  * A helper method to convert cartesian state to polar.
+  */
+  Eigen::VectorXd Cart2Pol(const Eigen::VectorXd& x_state);
 
+  /**
+  * A helper method to convert polar state to cartesian.
+  */
+  Eigen::VectorXd Pol2Cart(const Eigen::VectorXd& x_state);
 };
 
 #endif /* TOOLS_H_ */

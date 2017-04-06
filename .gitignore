@@ -3,6 +3,7 @@
 
 # build files
 build/
+data/output.txt
 
 # editor config
 .vscode/
@@ -21,4 +22,10 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 ide_profiles/xcode/Debug/
+ide_profiles/xcode/CMakeFiles/
+ide_profiles/xcode/CMakeScripts/
 ide_profiles/xcode/ExtendedKF.build/
+ide_profiles/xcode/ExtendedKF.xcodeproj/
+ide_profiles/xcode/images/
+ide_profiles/xcode/cmake_install.cmake
+ide_profiles/xcode/CMakeCache.txt
